@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21717DE02123C5B90091E3BE /* LQ_PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21717DDE2123C5B90091E3BE /* LQ_PasswordView.m */; };
 		F1E1BB5A2114407F003FED05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E1BB592114407F003FED05 /* AppDelegate.m */; };
 		F1E1BB5D2114407F003FED05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E1BB5C2114407F003FED05 /* ViewController.m */; };
 		F1E1BB602114407F003FED05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E1BB5E2114407F003FED05 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21717DDE2123C5B90091E3BE /* LQ_PasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQ_PasswordView.m; sourceTree = "<group>"; };
+		21717DDF2123C5B90091E3BE /* LQ_PasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQ_PasswordView.h; sourceTree = "<group>"; };
 		F1E1BB552114407F003FED05 /* 验证码输入框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "验证码输入框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E1BB582114407F003FED05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1E1BB592114407F003FED05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21717DDD2123C5B90091E3BE /* passWordView */ = {
+			isa = PBXGroup;
+			children = (
+				21717DDE2123C5B90091E3BE /* LQ_PasswordView.m */,
+				21717DDF2123C5B90091E3BE /* LQ_PasswordView.h */,
+			);
+			path = passWordView;
+			sourceTree = "<group>";
+		};
 		F1E1BB4C2114407F003FED05 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		F1E1BB572114407F003FED05 /* 验证码输入框 */ = {
 			isa = PBXGroup;
 			children = (
+				21717DDD2123C5B90091E3BE /* passWordView */,
 				F1E1BB582114407F003FED05 /* AppDelegate.h */,
 				F1E1BB592114407F003FED05 /* AppDelegate.m */,
 				F1E1BB5B2114407F003FED05 /* ViewController.h */,
@@ -267,6 +280,7 @@
 			files = (
 				F1E1BB5D2114407F003FED05 /* ViewController.m in Sources */,
 				F1E1BB682114407F003FED05 /* main.m in Sources */,
+				21717DE02123C5B90091E3BE /* LQ_PasswordView.m in Sources */,
 				F1E1BB5A2114407F003FED05 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
